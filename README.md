@@ -40,6 +40,10 @@ Description of relevant scripts:
       - getPlaceFieldBoundaries - Need to have place field rate maps calculated already
       - SessPeriStimPhaseLocking
       - SessPeriStimACFrequency
+      - SessBehaviorCorrMatrix -correlation matrix to look at assemblies
+      - SessBehaviorCorrMatrixCA3 -correlation matrix to look at assemblies
+      - SessBehaviorAssemblies
+      - SessBehaviorAssembliesSeparate
       - SessUnitISI - Calculates the log ISI distribution, with LFP frequency for cells.
 
 ## Per animal, behavior results		
@@ -54,31 +58,4 @@ Description of relevant scripts:
   - calculatePhasePrecessionSummary - Runs ‘SessBehaviorPhasePrecession’ across all mice
   - compileMiceBehavVars - Calculates time between stim and no stim trials etc
 
-## Combine animals, after running the relevant per animal, all sessions script - stored in ‘Compiled’ folder’ 		
-	- compileMiceBehavior
-	- compileMicePowerProfile
-  	- compileMicePowerSpectrumCSD
-  	- compileMiceCSDPowerCorr
-  	- compileMicePowerProfileCA3_individualmice
-  	- compileMicePowerProfileCA3
-  	- compileMiceThetaFreq - Compiles theta frequency and power in pyramidal  channel
-  	- complileMiceCSDSinkShift
-  	- compileMiceCSDPowerCoherence - Coherence along the linearized maze for stim vs no stim
-  	- compileMiceModIdxCSD
-  	- compileMiceLFPSpeed
-  	- compileMiceUnitPSTH
-  	- compileMiceResponseCA3 - plot the firing rate over time for CA3 mice.
-  	- compileMicePlaceFields 
-  	- compilePlaceFieldStats
-  	- compileSplitterCells
-  	- compileMicePhasePrecession
-  	- compileMicePhaseLocking
-  	- compileMicePhaseLockingVer2 - Incorporated polar statistics and only significant cells
-  	- compileMiceACFrequency
-  	- compileMiceACFrequencyVer2
-  	- compileMiceISIHist
-  	- compileMiceHippLayers - extracts theta power, CSD, coherence across select channels and plots across animals. Also does statistics
-  	- compileMiceHippLayersCSD
-  	- compileMiceCoherence - extracts coherence across select channels and plots across animals. 
-  	- compareHCvsMaze - compares unit responses in the homecage versus on the maze
 
